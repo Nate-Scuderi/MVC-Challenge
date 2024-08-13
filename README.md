@@ -1,18 +1,17 @@
 ## CMS Blog Site
 # A simple CMS-style blog application built using Express.js, Handlebars.js, Sequelize, and PostgreSQL.
 
-Features
+## Features
 User authentication (sign up, log in, log out)
 Create, read, update, and delete blog posts
 Comment on blog posts
 Session management with express-session
-Installation
-Clone the repository.
-Install dependencies:
-bash
-Copy code
-npm install
-Set up your environment variables in a .env file:
+## Installation
+- Clone the repository.
+- Install dependencies:
+- Copy code
+- npm install
+ # Set up your environment variables in a .env file:
 makefile
 Copy code
 DB_NAME=your_database_name
@@ -23,6 +22,6 @@ Start the application:
 bash
 Copy code
 npm start
-Usage
+## Usage
 Visit http://localhost:3001 to view and interact with the blog.
 
